@@ -1,7 +1,7 @@
 import axios from "axios";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 export const axiosClient =axios.create({
-    baseURL:"https://medidek-backend-wz4l.onrender.com/v2/"
+    baseURL:"https://beyondblack.agency"
 })
 
 axiosClient.interceptors.request.use(async (request) => {
